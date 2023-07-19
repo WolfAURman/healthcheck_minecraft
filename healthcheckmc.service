@@ -1,0 +1,9 @@
+[Unit]
+Description=Daemon systemd for healthcheck minecraft server
+
+[Service]
+Type=oneshot
+ExecStart=sh ~/.config/systemd/user/healthcheckmc.sh
+
+[Install]
+WantedBy=multi-user.target

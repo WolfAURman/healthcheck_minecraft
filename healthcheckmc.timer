@@ -1,0 +1,8 @@
+[Unit]
+Description=Daemon timer for healthcheck minecraft server
+
+[Timer]
+OnUnitActiveSec=3min
+
+[Install]
+WantedBy=timers.target
